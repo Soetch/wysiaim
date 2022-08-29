@@ -1,9 +1,23 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Socials from "../components/Socials"
+import Ad from "../components/Ad"
+import Link from "next/link"
+import Header from "../components/Header"
+import Members from "../components/Members"
 
 export default function Home() {
   return (
-    <h1 className="text-3xl text-center underline">Thanks for using tailwind-template !</h1>
+    <>
+      <div className="">
+        <Header/>
+        <div id="body">
+          <div className="box-border bg-zenith bg-cover w-150 h-96">
+            
+          </div>
+          <Socials/>
+          <Ad/>
+          <Members/>
+        </div>
+      </div>
+    </> 
   )
 }
