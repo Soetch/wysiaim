@@ -9,10 +9,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <meta charset="UTF-8"/>
-        <meta name="description" content="WYSIAim's Home"/>
-        <meta name="keywords" content="WYSIAim, osu!, taiko, mania, catch"/>
-        <meta name="author" content="WYSIAim"/>
+        <title>WYSIAim</title>
+        <meta property="og:title" content="WYSIAim"/>
+        <meta property="og:description" content="WYSIAim's Home"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:author" content="WYSIAim"/>
       </Head>
       <div className="">
         <Header/>
@@ -23,6 +24,18 @@ export default function Home() {
           <Socials/>
           <Ad/>
           <Members/>
+          
+          <div className="box-border bg-blue-900 w-150 h-24">
+                <div className="flex place-content-center">
+                  <div className="mt-8 shadow-inner rounded-2xl bg-blue-800">
+                  <div className="text-xl text-white mt-1 mb-1 ml-2 mr-2">
+                       Made with 💕
+                       <a> by </a>
+                       <a href="https://soetch.vercel.app" className="hover:underline">Soetch</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
         </div>
       </div>
     </> 
