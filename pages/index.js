@@ -31,7 +31,8 @@ export default function Home() {
                   <div className="text-xl text-white mt-1 mb-1 ml-2 mr-2">
                        Made with 💕
                        <a> by </a>
-                       <a href="https://soetch.vercel.app" className="hover:underline">Soetch</a>
+                       <a href="https://soetch.vercel.app" className="hover:underline">Soetch </a>
+                       !
                     </div>
                   </div>
                 </div>
