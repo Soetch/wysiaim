@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function Members() {
     return(
         <>
-            <div className="bg-slate-200 box-border w-150 xl:h-175 sm:h-200">
+            <div className="bg-slate-200 box-border w-175 xl:h-200 sm:h-200">
                 <div className="flex gap-4 place-content-center">
                     <a>
                         <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="currentColor" className="mt-4" viewBox="0 0 16 16">
@@ -90,22 +90,22 @@ export default function Members() {
                         <div className="flex place-content-center gap-1 w-150 h-24 mt-2">
                             <div className="mt-2 box-border shadow-xl bg-slate-300 rounded-xl w-96 flex gap-3">
                                 <a className="bg-mariodidthat w-16 h-16 bg-cover mt-3 rounded-xl ml-4"/>
-                                <a className="text-xl font-bold mt-8 ml-1">
-                                    MarioDidThat
+                                <a className="text-2xl font-bold mt-7 ml-3 mr-4">
+                                    GzBugy
                                 </a>
                                 <div className="flex gap-3 mt-1">
-                                    <Link href="https://twitter.com/MarioDidThatTTV">
+                                    <Link href="https://twitter.com/GzBugy">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="black" viewBox="0 0 16 16" className="mt-6 hover:scale-110">
                                             <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
                                         </svg>
                                     </Link>
-                                    <Link href="https://www.youtube.com/channel/UCJ_hUoLR4EuW-mEBIYJnkOg">
+                                    <Link href="https://www.youtube.com/channel/UCUHswLI5MGuGDDDoRcYmS8A">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="black" className="mt-6 hover:scale-110" viewBox="0 0 16 16">
                                             <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/> 
                                         </svg>
                                     </Link>
-                                    <Link href="https://www.twitch.tv/mariodidthat">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="w-10 h-10 mt-6" viewBox="0 0 16 16">
+                                    <Link href="https://www.twitch.tv/gzbugy">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="w-10 h-10 mt-6 hover:scale-110 " viewBox="0 0 16 16">
                                             <path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142v6.286z"/>
                                             <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z"/>
                                         </svg>
@@ -139,7 +139,7 @@ export default function Members() {
                         <div className="flex place-content-center gap-1 w-150 h-24 mt-2">
                             <div className="mt-2 box-border shadow-xl bg-slate-300 rounded-xl w-96 flex gap-3">
                                 <a className="bg-relaxingastro w-16 h-16 bg-cover mt-3 rounded-xl ml-4"/>
-                                <a className="text-2xl font-bold mt-7">
+                                <a className="text-xl font-bold mt-8 ml-1 mr-1">
                                     relaxingastro
                                 </a>
                                 <div className="flex gap-3 mt-1">
@@ -154,7 +154,7 @@ export default function Members() {
                                         </svg>
                                     </Link>
                                     <Link href="https://www.twitch.tv/relaxingastro">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="w-10 h-10 mt-6" viewBox="0 0 16 16">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="w-10 h-10 mt-6 hover:scale-110" viewBox="0 0 16 16">
                                             <path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142v6.286z"/>
                                             <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z"/>
                                         </svg>
@@ -164,6 +164,27 @@ export default function Members() {
                         </div>
                     </div>
                     <div className="lg:flex place-content-center gap-4 mt-2">
+                        <div className="flex place-content-center gap-1 w-150 h-24 mt-2">
+                            <div className="mt-2 box-border shadow-xl bg-slate-300 rounded-xl w-96 flex gap-3">
+                                <a className="bg-sikkr w-16 h-16 bg-cover mt-3 rounded-xl ml-4"/>
+                                <a className="text-2xl font-bold mt-7 ml-3 mr-3">
+                                    sikkr
+                                </a>
+                                <div className="flex gap-3 mt-1">
+                                    <Link href="https://twitter.com/sikkrosu">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="black" viewBox="0 0 16 16" className="mt-6 hover:scale-110">
+                                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                                        </svg>
+                                    </Link>
+                                    <Link href="https://www.twitch.tv/sikkr_">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="w-10 h-10 mt-6 hover:scale-110" viewBox="0 0 16 16">
+                                            <path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142v6.286z"/>
+                                            <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z"/>
+                                        </svg>
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
                         <div className="flex place-content-center gap-1 w-150 h-24 mt-2">
                             <div className="mt-2 box-border shadow-xl bg-slate-300 rounded-xl w-96 flex gap-3">
                                 <a className="bg-pea w-16 h-16 bg-cover mt-3 rounded-xl ml-4"/>
@@ -206,6 +227,195 @@ export default function Members() {
                                 </Link>
                                 </div>
                             </div>
+                            
+                        </div>
+                    </div>
+                    <div className="lg:flex place-content-center gap-4 mt-2">
+                    <div className="flex place-content-center gap-1 w-150 h-24 mt-2">
+                            <div className="mt-2 box-border shadow-xl bg-slate-300 rounded-xl w-96 flex gap-3">
+                                <a className="bg-runnysunny w-16 h-16 bg-cover mt-3 rounded-xl ml-4"/>
+                                <a className="text-2xl font-bold mt-7 ml-3 mr-3">
+                                    runnysunny
+                                </a>
+                                <div className="flex gap-3 mt-1">
+                                    <Link href="https://twitter.com/RunnyYt">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="black" viewBox="0 0 16 16" className="mt-6 hover:scale-110">
+                                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                                        </svg>
+                                    </Link>
+                                    <Link href="https://www.twitch.tv/runnyfcunny">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="w-10 h-10 mt-6 hover:scale-110" viewBox="0 0 16 16">
+                                            <path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142v6.286z"/>
+                                            <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z"/>
+                                        </svg>
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flex place-content-center gap-1 w-150 h-24 mt-2">
+                            <div className="mt-2 box-border shadow-xl bg-slate-300 rounded-xl w-96 flex gap-3">
+                                <a className="bg-justcallmemk w-16 h-16 bg-cover mt-3 rounded-xl ml-4"/>
+                                <a className="text-lg font-bold mt-8 ml-1 mr-1">
+                                    JustCallMeMK
+                                </a>
+                                <div className="flex gap-3 mt-1">
+                                <Link href="https://twitter.com/JustcallmemkO">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="black" viewBox="0 0 16 16" className="mt-6 hover:scale-110">
+                                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                                    </svg>
+                                </Link>
+                                <Link href="https://www.youtube.com/channel/UCAWL088R9HEqIceAshk5m0g">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="black" className="mt-6 hover:scale-110" viewBox="0 0 16 16">
+                                        <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/> 
+                                    </svg>
+                                </Link>
+                                <Link href="https://www.twitch.tv/justcallmemk__">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="w-10 h-10 mt-6 hover:scale-110" viewBox="0 0 16 16">
+                                            <path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142v6.286z"/>
+                                            <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z"/>
+                                        </svg>
+                                </Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flex place-content-center gap-1 w-150 h-24 mt-2">
+                            <div className="mt-2 box-border shadow-xl bg-slate-300 rounded-xl w-96 flex gap-3">
+                                <a className="bg-sagun w-16 h-16 bg-cover mt-3 rounded-xl ml-4"/>
+                                <a className="text-2xl font-bold mt-7 ml-3 mr-3">
+                                    sagun
+                                </a>
+                                <div className="flex gap-3 mt-1">
+                                <Link href="https://twitter.com/sagun_twit/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="black" viewBox="0 0 16 16" className="mt-6 hover:scale-110">
+                                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                                    </svg>
+                                </Link>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div className="lg:flex place-content-center gap-4 mt-2">
+                    <div className="flex place-content-center gap-1 w-150 h-24 mt-2">
+                            <div className="mt-2 box-border shadow-xl bg-slate-300 rounded-xl w-96 flex gap-3">
+                                <a className="bg-spyke w-16 h-16 bg-cover mt-3 rounded-xl ml-4"/>
+                                <a className="text-2xl font-bold mt-7 ml-3 mr-3">
+                                    Spyke
+                                </a>
+                                <div className="flex gap-3 mt-1">
+                                    <Link href="https://twitter.com/SpykeSquirt">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="black" viewBox="0 0 16 16" className="mt-6 hover:scale-110">
+                                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                                        </svg>
+                                    </Link>
+                                    <Link href="https://www.twitch.tv/spykesquirt">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="w-10 h-10 mt-6 hover:scale-110" viewBox="0 0 16 16">
+                                            <path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142v6.286z"/>
+                                            <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z"/>
+                                        </svg>
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flex place-content-center gap-1 w-150 h-24 mt-2">
+                            <div className="mt-2 box-border shadow-xl bg-slate-300 rounded-xl w-96 flex gap-3">
+                                <a className="bg-enderlegend w-16 h-16 bg-cover mt-3 rounded-xl ml-4"/>
+                                <a className="text-lg font-bold mt-8 ml-3 mr-3">
+                                    Enderlegend87
+                                </a>
+                                <div className="flex gap-3 mt-1">
+                                <Link href="https://twitter.com/enderlegend87">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="black" viewBox="0 0 16 16" className="mt-6 hover:scale-110">
+                                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                                    </svg>
+                                </Link>
+                                <Link href="hhttps://www.youtube.com/channel/UCt4e3IlP9YuBeFGL41tPjcw">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="black" className="mt-6 hover:scale-110" viewBox="0 0 16 16">
+                                        <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/> 
+                                    </svg>
+                                </Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flex place-content-center gap-1 w-150 h-24 mt-2">
+                            <div className="mt-2 box-border shadow-xl bg-slate-300 rounded-xl w-96 flex gap-3">
+                                <a className="bg-fainted w-16 h-16 bg-cover mt-3 rounded-xl ml-4"/>
+                                <a className="text-2xl font-bold mt-7 ml-3 mr-3">
+                                    fainted
+                                </a>
+                                <div className="flex gap-3 mt-1">
+                                <Link href="https://twitter.com/mr_fgchamp">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="black" viewBox="0 0 16 16" className="mt-6 hover:scale-110">
+                                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                                    </svg>
+                                </Link>
+                                <Link href="https://www.youtube.com/channel/UCke1O0REd9JlFBMF2dOndLg">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="black" className="mt-6 hover:scale-110" viewBox="0 0 16 16">
+                                        <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/> 
+                                    </svg>
+                                </Link>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div className="lg:flex place-content-center gap-4 mt-2">
+                    <div className="flex place-content-center gap-1 w-150 h-24 mt-2">
+                            <div className="mt-2 box-border shadow-xl bg-slate-300 rounded-xl w-96 flex gap-3">
+                                <a className="bg-adomeium w-16 h-16 bg-cover mt-3 rounded-xl ml-4"/>
+                                <a className="text-2xl font-bold mt-7 ml-3 mr-3">
+                                    Adomeium
+                                </a>
+                                <div className="flex gap-3 mt-1">
+                                    <Link href="https://twitter.com/adomeium_osu">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="black" viewBox="0 0 16 16" className="mt-6 hover:scale-110">
+                                            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                                        </svg>
+                                    </Link>
+                                    <Link href="hhttps://www.twitch.tv/adomeium003">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="w-10 h-10 mt-6 hover:scale-110" viewBox="0 0 16 16">
+                                            <path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142v6.286z"/>
+                                            <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z"/>
+                                        </svg>
+                                    </Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flex place-content-center gap-1 w-150 h-24 mt-2">
+                            <div className="mt-2 box-border shadow-xl bg-slate-300 rounded-xl w-96 flex gap-3">
+                                <a className="bg-arminfh w-16 h-16 bg-cover mt-3 rounded-xl ml-4"/>
+                                <a className="text-2xl font-bold mt-7 ml-3 mr-3">
+                                    ArminFH
+                                </a>
+                                <div className="flex gap-3 mt-1">
+                                <Link href="https://twitter.com/FloatingThroug8">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="black" viewBox="0 0 16 16" className="mt-6 hover:scale-110">
+                                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                                    </svg>
+                                </Link>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="flex place-content-center gap-1 w-150 h-24 mt-2">
+                            <div className="mt-2 box-border shadow-xl bg-slate-300 rounded-xl w-96 flex gap-3">
+                                <a className="bg-shimii w-16 h-16 bg-cover mt-3 rounded-xl ml-4"/>
+                                <a className="text-2xl font-bold mt-7 ml-3 mr-3">
+                                    Shimii
+                                </a>
+                                <div className="flex gap-3 mt-1">
+                                <Link href="https://twitter.com/Shimiiosu">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="black" viewBox="0 0 16 16" className="mt-6 hover:scale-110">
+                                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                                    </svg>
+                                </Link>
+                                <Link href="https://www.twitch.tv/shimlives">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="black" className="mt-6 hover:scale-110" viewBox="0 0 16 16">
+                                        <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/> 
+                                    </svg>
+                                </Link>
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>

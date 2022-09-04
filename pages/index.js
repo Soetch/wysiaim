@@ -18,7 +18,7 @@ export default function Home() {
       <div className="">
         <Header/>
         <div id="body">
-          <div className="box-border bg-zenith bg-cover w-150 h-96">
+          <div className="box-border bg-zenith bg-cover w-150">
             
           </div>
           <Socials/>

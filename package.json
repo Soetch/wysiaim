@@ -2,6 +2,7 @@
   "name": "wysiaim",
   "version": "1.0.0",
   "scripts": {
+    "install": "npm install && npm update",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
