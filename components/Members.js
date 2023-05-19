@@ -29,7 +29,7 @@ export default function Members() {
                         <div className="mt-2 box-border shadow-xl bg-slate-300 rounded-xl w-96 flex gap-3">
                             <a className="bg-konroatori w-16 h-16 bg-cover mt-3 rounded-xl ml-4"/>
                             <a className="text-2xl font-bold mt-7 ml-3 mr-3">
-                                quickpiece
+                                stewie
                             </a>
                             <div className="flex gap-3">
                                 <Link href="https://twitter.com/wysiquickpiece">
